@@ -3,7 +3,7 @@ layout: "layouts/homepage.njk"
 hero:
   subTitle: "WE WORK HARD, WE PLAY HARD"
   title:
-    firstPara: "We’re a Design Studio"
+    firstPara: "We’re a Data Company"
     secondPara: "That Believes In Great Ideas"
   seeWorkBtn:
     text: "See Our Works"
