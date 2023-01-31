@@ -1,19 +1,19 @@
 {
-  "footerLogo": "/assets/images/logo-footer-new.png",
+  "footerLogo": "/assets/images/logo-footer.png",
 
   "contactsHeading": "Contact Info",
   "contactsInfo":[
     {
-      "link":"https://goo.gl/maps/fBANt7Ns2wi6mM7cA",
-      "text":"100 Manchester, UK"
+      "link":"https://goo.gl/maps/eiUaFGJK3ukCWvHZ8",
+      "text":"Peter House, Oxford Street, Manchester, Greater Manchester, United Kingdom, M1 5AN"
     },
     {
-      "link":"tel:0161 100 1000",
-      "text":"0161 100 1000"
+      "link":"tel:+441612093000",
+      "text":"+44161-209-3000"
     },
     {
-      "link":"mailto:",
-      "text":"info@fabric.co"
+      "link":"mailto:hello@fabric-analytics.com",
+      "text":"hello@fabric-analytics.com"
     }
   ],
 
@@ -21,11 +21,11 @@
   "siteMap":[
     {
       "link":"about",
-      "text":"About Fabric"
+      "text":"About"
     },
     {
-      "link":"portfolio",
-      "text":"Projects"
+      "link":"services",
+      "text":"Services"
     },
     {
       "link":"privacy-policy",
@@ -33,29 +33,21 @@
     },
     {
       "link":"terms-conditions",
-      "text":"Terms & Condition"
+      "text":"Terms & Conditions"
     }
   ],
 
   "socialHeading":"Social Media",
   "socialMedia":[
     {
-      "link":"#",
-      "text":"Linkedin"
-    },
-    {
-      "link":"#",
-      "text":"Medium"
-    },
-    {
-      "link":"#",
-      "text":"Instagram"
+      "link":"https://www.linkedin.com/company/fabric-analytics/",
+      "text":"LinkedIn"
     }
   ],
   
-  "brandHeading":"We help businesses:",
-  "brandMotto":["develop data solutions","implement robust analytics strategies","stay ahead with the lateset technologies"],
+  "brandHeading":"How we can help:",
+  "brandMotto":["GA4 Configuration","Analytics Consultancy","CRO Strategy & Delivery"],
 
   "back2topIcon":"/assets/images/to-top.svg",
-  "customerComment":"Back to the top"
+  "customerComment":"Back to top"
 }

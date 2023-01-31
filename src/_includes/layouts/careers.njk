@@ -1,0 +1,59 @@
+{% extends "base.njk" %}
+
+{% block content %}
+    <section class="site-careers-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="site-careers-wrapper">
+              <div class="site-careers-description">
+                <p>
+                  {{des}}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="site-expertise">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="section-title">
+              <h2>{{openroles.title}}</h2>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <ul class="site-expertise-list">
+              {% for openIn in openroles.openIn %}
+              <li>{{openIn}}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="site-expertise">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="section-title">
+              <h2>{{careers.title}}</h2>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <ul class="site-expertise-list">
+              {% for careersIn in careers.careersIn %}
+              <li>{{careersIn}}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+{% endblock %}

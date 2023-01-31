@@ -1,117 +1,40 @@
 {
-  "title": "team that makes the difference.",
+  "title": "The Fabric Analytics Team.",
   "teamMembers":[
     {
-      "name": "PABLO ESCOBAR",
-      "dig": "Creative Director",
-      "img": "/assets/images/team/team-member-one.jpg",
+      "name": "DAN WIGLEY",
+      "dig": "Co-Founder",
+      "img": "/assets/images/team/dan2.jpg",
       "social":[
         {
-          "icon": "medium",
-          "link": "#"
-        },
-        {
           "icon": "linkedin",
-          "link": "#"
-        },
-        {
-          "icon": "instagram",
-          "link": "#"
+          "link": "https://www.linkedin.com/in/daniel-wigley/"
         }
       ]
     },
-    {
-      "name": "MONTINO RIAU",
-      "dig": "Product Manager",
-      "img": "/assets/images/team/team-member-two.jpg",
+    /*{
+      "name": "RIC RILEY",
+      "dig": "Co-Founder",
+      "img": "/assets/images/team/ric2.jpg",
       "social":[
         {
-          "icon": "medium",
-          "link": "#"
-        },
-        {
           "icon": "linkedin",
-          "link": "#"
+          "link": "https://www.linkedin.com/in/ricriley/"
         },
         {
           "icon": "instagram",
-          "link": "#"
+          "link": "https://www.instagram.com/ricriley"
         }
       ]
-    },
+    },*/
     {
-      "name": "ALEX NAASRI",
-      "dig": "Chief Design Officer",
-      "img": "/assets/images/team/team-member-three.jpg",
+      "name": "DAVE LUCAS",
+      "dig": "Chairman",
+      "img": "/assets/images/team/davel2.jpg",
       "social":[
         {
-          "icon": "medium",
-          "link": "#"
-        },
-        {
           "icon": "linkedin",
-          "link": "#"
-        },
-        {
-          "icon": "instagram",
-          "link": "#"
-        }
-      ]
-    },
-    {
-      "name": "HONGMAN CHIOA",
-      "dig": "UX Researcher",
-      "img": "/assets/images/team/team-member-four.jpg",
-      "social":[
-        {
-          "icon": "medium",
-          "link": "#"
-        },
-        {
-          "icon": "linkedin",
-          "link": "#"
-        },
-        {
-          "icon": "instagram",
-          "link": "#"
-        }
-      ]
-    },
-    {
-      "name": "SANTIO ANDRESS",
-      "dig": "Content Researcher",
-      "img": "/assets/images/team/team-member-five.jpg",
-      "social":[
-        {
-          "icon": "medium",
-          "link": "#"
-        },
-        {
-          "icon": "linkedin",
-          "link": "#"
-        },
-        {
-          "icon": "instagram",
-          "link": "#"
-        }
-      ]
-    },
-    {
-      "name": "RAMESH PAUL",
-      "dig": "Creative Designer",
-      "img": "/assets/images/team/team-member-six.jpg",
-      "social":[
-        {
-          "icon": "medium",
-          "link": "#"
-        },
-        {
-          "icon": "linkedin",
-          "link": "#"
-        },
-        {
-          "icon": "instagram",
-          "link": "#"
+          "link": "https://www.linkedin.com/in/dave-lucas-133122b8/"
         }
       ]
     }

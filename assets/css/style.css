@@ -104,19 +104,20 @@ h6 {
 }
 
 .btn-primary {
-  background: #EAA4A4;
+  background: #2f3741;
   color: #fff;
 }
 .btn-primary:hover {
-  background: #e07b7b;
+  background: #dbd1cd;
+  color: #2f3741!important;
 }
 
 .btn-secondary {
-  background: #ADD6D2;
-  color: #fff;
+  background: #fff;
+  color: #2f3741!important;
 }
 .btn-secondary:hover {
-  background: #8bc5bf;
+  background: #dbd1cd;
 }
 
 body {
@@ -153,7 +154,7 @@ body {
   margin-bottom: 30px;
   padding: 0 0 10px 0;
   border-width: 0 0 1px 0;
-  border-color: #EAA4A4;
+  border-color: #86cac5;
   font-weight: 300;
   letter-spacing: 1px;
   -webkit-appearance: none;
@@ -234,7 +235,7 @@ textarea.form-control {
   position: relative;
 }
 .site-navigation .nav-item .nav-link:hover {
-  color: #EAA4A4;
+  color: #86cac5;
 }
 .site-navigation .nav-item:last-child {
   margin-left: 15px;
@@ -247,7 +248,7 @@ textarea.form-control {
   height: 2px;
   width: 25px;
   transition: all 0.2s;
-  background: #EAA4A4;
+  background: #2f3741;
   display: block;
 }
 .site-navigation .navbar-toggler .icon-bar:not(:last-child) {
@@ -288,22 +289,39 @@ textarea.form-control {
 .site-hero {
   position: relative;
   height: 100vh;
-  background-image: url("../images/backgrounds/hero-background-1.jpg");
+  background-image: url("../images/backgrounds/hero-background.png");
+  background-color: #86cac5;
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center center;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+.site-hero .container {
+    position: absolute;
+    bottom: 55px;
+}
+
 @media (max-width: 991px) {
   .site-hero {
-    height: auto;
+    height: 680px;
     padding: 200px 0;
+  }
+  .site-hero .container {
+    bottom: 55px;
   }
 }
 @media (max-width: 575px) {
   .site-hero {
+    height: 500px;
     padding: 150px 0;
+    background-size: contain;
+    background-position: center 70px;
+  }
+  .site-hero .container {
+    bottom: 20px;
   }
 }
 .site-hero-content h1 {
@@ -354,8 +372,8 @@ textarea.form-control {
 
 .site-counter {
   padding: 85px 0;
-  color: #fff;
-  background: #ADD6D2;
+  color: #00113E;
+  background: #F7F9FF;
 }
 .site-counter .section-title {
   margin-bottom: 40px;
@@ -376,7 +394,7 @@ textarea.form-control {
   font-weight: 300;
 }
 .site-counter-item-number {
-  color: #fff;
+  color: #00113E;
   font-size: 60px;
   margin-bottom: 0;
   font-weight: 700;
@@ -410,7 +428,7 @@ textarea.form-control {
 }
 .site-project-item-content span, .site-blog-post-content span {
   font-family: "Montserrat", sans-serif;
-  color: #EAA4A4;
+  color: #86cac5;
   display: block;
   margin-bottom: 10px;
 }
@@ -450,21 +468,21 @@ textarea.form-control {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 500;
-  color: #EAA4A4;
+  color: #86cac5;
 }
 .site-project-cta::before {
   content: "";
   position: absolute;
   height: 2px;
   width: 100%;
-  background: #EAA4A4;
+  background: #86cac5;
   bottom: -2px;
   transition: transform 0.3s cubic-bezier(0.36, 0.03, 0, 0.91);
   transform-origin: right;
   transform: scaleX(0);
 }
 .site-project-cta:hover {
-  color: #EAA4A4;
+  color: #86cac5;
   text-decoration: none;
 }
 .site-project-cta:hover::before {
@@ -484,7 +502,7 @@ textarea.form-control {
   font-size: 55px;
 }
 .site-project-header-content h1 span {
-  color: #EAA4A4;
+  color: #86cac5;
 }
 @media (max-width: 767px) {
   .site-project-header-content h1 {
@@ -540,7 +558,7 @@ textarea.form-control {
   transition: all 0.3s ease;
 }
 .site-project-pagination .pagination .page-item.active .page-link, .site-blog-pagination .pagination .page-item.active .page-link {
-  background-color: #EAA4A4;
+  background-color: #86cac5;
   color: #fff;
 }
 .site-project-single-section {
@@ -685,7 +703,7 @@ textarea.form-control {
   transition: 0.3s ease;
 }
 .site-blog-post-content h3 a:hover {
-  color: #EAA4A4;
+  color: #86cac5;
   text-decoration: none;
 }
 @media (max-width: 575px) {
@@ -694,7 +712,7 @@ textarea.form-control {
   }
 }
 .site-blog-post-content a {
-  color: #EAA4A4;
+  color: #86cac5;
   letter-spacing: 2px;
 }
 @media (max-width: 575px) {
@@ -844,7 +862,7 @@ textarea.form-control {
   flex-wrap: wrap;
 }
 .site-about-company {
-  background: #EAA4A4;
+  background: #86cac5;
   width: 40%;
   padding: 70px 38px;
 }
@@ -900,6 +918,57 @@ textarea.form-control {
 }
 .site-expertise-list li:not(:last-child) {
   margin-bottom: 10px;
+}
+
+
+.site-careers-header {
+  padding-top: 130px;
+  background-color: #F7F9FF;
+}
+@media (max-width: 575px) {
+  .site-careers-header {
+    padding-top: 140px;
+    text-align: center;
+  }
+}
+.site-careers-wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.site-careers-company {
+  background: #86cac5;
+  width: 40%;
+  padding: 70px 38px;
+}
+@media (max-width: 991px) {
+  .site-careers-company {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+.site-careers-company h1 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 60px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.site-careers-description {
+  width: 100%;
+  padding: 0 50px;
+}
+@media (max-width: 991px) {
+  .site-careers-description {
+    width: 100%;
+    padding: 0 38px;
+  }
+}
+.site-careers-description p {
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 0;
 }
 
 .site-client {
@@ -965,7 +1034,7 @@ textarea.form-control {
 }
 .site-team-member-content h3 {
   font-size: 20px;
-  color: #EAA4A4;
+  color: #86cac5;
   margin-bottom: 10px;
   font-weight: 500;
 }
@@ -1007,7 +1076,7 @@ textarea.form-control {
   }
 }
 .site-contact-title span {
-  color: #EAA4A4;
+  color: #86cac5;
 }
 .site-contact-form {
   margin-top: 20px;
@@ -1030,7 +1099,7 @@ textarea.form-control {
 }
 
 .site-footer {
-  background: #ADD6D2;
+  background: #2f3741;
   padding: 100px 0;
 }
 .site-footer-logo {

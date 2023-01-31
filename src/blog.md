@@ -1,10 +1,9 @@
 ---
-layout: "layouts/blog.njk"
-title: "Fabric Blog"
-des: "By fusing strategy & data we help our partners build their brands, drive business, & stand out from the noise in saturated markets! Follow our blog for the latest case studies and projects."
+title: Fabric Blog
+layout: layouts/blog.njk
+des: Welcome to our blog. Here, we aim to share valuable insights, tips and information on a wide range of topics to help you stay informed and up-to-date.
 pagination:
   data: collections.blogpost
-  size: 3
+  size: 4
   alias: posts
 ---
-

@@ -7,13 +7,13 @@
         <div class="row">
           <div class="col-lg-5">
             <h1 class="site-contact-title">
-              {{title}}<span>{{subTitle}}</span>
+              {{cta.title}}<span>{{cta.subTitle}}</span>
             </h1>
           </div>
           <div class="col-lg-6 ml-auto">
             <div class="site-contact-form">
               <h4>{{formTitle}}</h4>
-              <form method="POST" action="https://fabform.io/f/ulB_j_f">
+              <form name="contact" method="POST" data-netlify="true" >
                 <div class="row">
                   <div class="col-lg-6">
                     <input type="text" class="form-control" name="first-name" id="first-name" placeholder="First Name">
@@ -26,15 +26,18 @@
                   </div>
                   <div class="col-lg-6">
                     <div class="select-wrapper">
-                      <select class="form-control" id="projectType">
+                      <select class="form-control" name="project-type" id="projectType">
                         <option value="" selected disabled hidden>Project Type</option>
-                        <option value="gd">Graphics Design</option>
-                        <option value="wb">Web Design</option>
+                        <option value="analytics">Analytics</option>
+                        <option value="conversion">Conversion Rate Optimisation</option>
+                        <option value="consultancy">Consultancy</option>
+                        <option value="training">Training</option>
+                        <option value="other">Other</option>
                       </select>
                     </div>
                   </div>
                   <div class="col-12">
-                    <textarea class="form-control" id="aboutProject" rows="6" placeholder="About the Project"></textarea>
+                    <textarea class="form-control" name="message" id="aboutProject" rows="6" placeholder="Message"></textarea>
                   </div>
                   <div class="col-12">
                     <button type="submit" class="btn btn-primary" formtarget="_blank">
@@ -47,9 +50,6 @@
                   </div>
                 </div>
               </form>
-              <p class="contact-form-generator mt-3">
-                <strong>** </strong><a href="https://fabform.io/" target="_blank">Static website forms</a>
-              </p>
             </div>
           </div>
         </div>

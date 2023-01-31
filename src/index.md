@@ -1,21 +1,18 @@
 ---
 layout: "layouts/homepage.njk"
+title: "Homepage"
 hero:
-  subTitle: "WE WORK HARD, WE PLAY HARD"
-  title:
-    firstPara: "We’re a Data Company"
-    secondPara: "That Believes In Great Ideas"
   seeWorkBtn:
-    text: "See Our Works"
-    link: "#project"
+    text: "View Our Services"
+    link: "services"
   connectBtn: 
     text: "Connect with us"
     link: "contact"
 
-portfolio:
-  subTitle: "OUR RECENT WORKS"
-  title: "Crafting experiences and seeking to make the complex clear & beautiful."
+services:
+  subTitle: "OUR SERVICES"
+  title: "Bespoke analytics & CRO strategies to suit your business."
   seeAllbtn:
-    link: "portfolio"
-    text: "MORE WORKS"
+    link: "services"
+    text: "MORE SERVICES"
 ---

@@ -1,6 +1,6 @@
 {
-  "navLogo":"/assets/images/logo-new.jpg",
-  "navLinks":["home","about","portfolio","blog"],
+  "navLogo":"/assets/images/logo.png",
+  "navLinks":["home","about","services","blog","careers"],
   "navBtnLink":"contact",
   "navBtnText":"Get in touch"
 }
